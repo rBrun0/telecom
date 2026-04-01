@@ -24,7 +24,7 @@ const FirstSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          <div className="relative w-72 sm:w-96 lg:w-[32rem] h-48 sm:h-56 lg:h-64 rounded-lg">
+          <div className="relative mx-auto md:mx-0 w-72 sm:w-96 lg:w-[32rem] h-48 sm:h-56 lg:h-64 rounded-lg">
             <Image
               src={firstLogo}
               fill
